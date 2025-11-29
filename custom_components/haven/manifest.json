@@ -1,0 +1,10 @@
+{
+  "domain": "haven",
+  "name": "Haven Lighting",
+  "codeowners": ["@mickeyschwab"],
+  "config_flow": true,
+  "documentation": "https://github.com/mickeyschwab/haven-hass",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/mickeyschwab/haven-hass/issues",
+  "version": "0.2.0"
+}
