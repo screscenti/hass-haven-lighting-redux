@@ -39,4 +39,4 @@ Create a script that loops while an `input_boolean` is On. Send random colors (R
 
 ## ❤️ Credits
 * **Original Creator:** [Mickey Schwab (@mickeyschwab)](https://github.com/mickeyschwab)
-* **2025 API Rewrite:** [YOUR_NAME_HERE (@YOUR_GITHUB_USER)](https://github.com/YOUR_GITHUB_USER)
+* **2025 API Rewrite:** [Stephen Crescenti (@screscenti)](https://github.com/screscenti)
