@@ -1,10 +1,10 @@
 {
   "domain": "haven",
-  "name": "Haven Lighting - Redux",
-  "codeowners": ["@mickeyschwab"],
+  "name": "Haven Lighting Redux",
+  "codeowners": ["@screscenti", "@mickeyschwab"],
   "config_flow": true,
-  "documentation": "https://github.com/mickeyschwab/haven-hass",
+  "documentation": "https://github.com/screscenti/hass-haven-lighting-redux",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/mickeyschwab/haven-hass/issues",
-  "version": "0.2.0"
+  "issue_tracker": "https://github.com/screscenti/hass-haven-lighting-redux/issues",
+  "version": "1.0.2"
 }
