@@ -1,6 +1,6 @@
 {
   "domain": "haven",
-  "name": "Haven Lighting",
+  "name": "Haven Lighting - Redux",
   "codeowners": ["@mickeyschwab"],
   "config_flow": true,
   "documentation": "https://github.com/mickeyschwab/haven-hass",
