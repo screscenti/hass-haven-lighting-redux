@@ -18,7 +18,7 @@ A revived and modernized Home Assistant integration for **Haven Lighting** smart
 
 1. Open **HACS** in Home Assistant.
 2. Click the **three dots** (top right) > **Custom Repositories**.
-3. Add the URL of this repository: `https://github.com/[YOUR_GITHUB_USERNAME]/hass-haven-lighting-redux`
+3. Add the URL of this repository: `https://github.com/screscenti/hass-haven-lighting-redux`
 4. Select Category: **Integration**.
 5. Click **Download**.
 6. Restart Home Assistant.
