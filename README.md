@@ -1,6 +1,3 @@
-# hass-haven-lighting-redux
-A revived Home Assistant integration for Haven Lighting. Updated for the 2025 Cloud API with support for Zones, Groups, Color, and White Temperature.
-
 # Haven Lighting Redux
 
 A revived and modernized Home Assistant integration for **Haven Lighting** smart landscape systems.
@@ -30,12 +27,15 @@ A revived and modernized Home Assistant integration for **Haven Lighting** smart
 3. Enter your Haven Lighting **Username** (Email) and **Password**.
 4. Your zones and groups will automatically appear!
 
-## 🎄 Creating Light Shows (Christmas/Halloween)
+## 💡 Automations & Color Control
 
-The native "Light Show" feature requires the Series 9 Pro controller. However, you can create **better** shows using Home Assistant scripts!
+When creating automations in Home Assistant, the standard "Device" trigger often hides advanced color options. To control **RGB Color** and **Brightness** in an automation, you must use the **Call Service** action.
 
-**Example: "Whimsical Christmas" Script**
-Create a script that loops while an `input_boolean` is On. Send random colors (Red/Green/White) to your lights with random delays (10-20s) and a 5-second transition. This creates a gentle, organic "twinkling" effect that avoids API rate limits.
+1. In your Automation, scroll to **Actions**.
+2. Click **Add Action** and select **Call Service**.
+3. Search for and select **`light.turn_on`**.
+4. Choose your Haven entity (e.g., `light.front_yard`).
+5. Check the boxes for **RGB Color** or **Brightness** to set your desired look.
 
 ## ❤️ Credits
 * **Original Creator:** [Mickey Schwab (@mickeyschwab)](https://github.com/mickeyschwab)
