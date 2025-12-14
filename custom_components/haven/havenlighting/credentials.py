@@ -4,9 +4,9 @@ import logging
 from .exceptions import AuthenticationError, ApiError
 from .config import DEVICE_ID, API_TIMEOUT
 
-# FIX: New server address
-AUTH_API_BASE = "https://stg-api.havenlighting.com/api"
-PROD_API_BASE = "https://stg-api.havenlighting.com/api"
+# GIADA FIX: Pointing both to Production API (was stg-api)
+AUTH_API_BASE = "https://api.havenlighting.com/api"
+PROD_API_BASE = "https://api.havenlighting.com/api"
 
 logger = logging.getLogger(__name__)
 
@@ -156,4 +156,4 @@ class Credentials:
             
         except requests.exceptions.RequestException as e:
             logger.error("Request failed: %s", str(e))
-            raise ApiError("Request failed: %s", str(e))
+            raise ApiError(f"Request failed: {str(e)}")
