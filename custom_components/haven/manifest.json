@@ -6,5 +6,5 @@
   "documentation": "https://github.com/screscenti/hass-haven-lighting-redux",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/screscenti/hass-haven-lighting-redux/issues",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
